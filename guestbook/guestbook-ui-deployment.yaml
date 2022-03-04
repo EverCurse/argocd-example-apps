@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nginx:1.21.6
+      - image: ealen/echo-server:latest
         name: guestbook-ui
         ports:
         - containerPort: 80
