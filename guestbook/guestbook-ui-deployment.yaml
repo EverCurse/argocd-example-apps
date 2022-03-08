@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: e2eteam/echoserver:2.2
+      - image: httpd
         name: guestbook-ui
         ports:
         - containerPort: 80
